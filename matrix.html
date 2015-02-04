@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beeusoft - Certificaci&oacute;n de contenidos SMS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+<link rel="stylesheet" type="text/css" id="theme" href="css/theme-serenity-head-light.css" />
+<body style="" class="">
+    <div class="page-container">
+        <div style="height: 1070px;" class="page-sidebar scroll">
+            <ul class="x-navigation">
+                <li class="xn-logo">
+                    <a href="dashboard.html">Beeusoft</a>
+                    <a href="#" class="x-navigation-control"></a>
+                </li>
+                <li class="xn-title">Men&uacute;</li>
+                <li>
+                    <a href="dashboard.html">
+                        <span class="fa fa-desktop"></span>
+                        <span class="xn-text">Dashboard</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="matrix.html">
+                        <span class="fa fa-gavel"></span>
+                        <span class="xn-text">Matrices de Prueba</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="statistics.html">
+                        <span class="fa fa-bar-chart-o"></span>
+                        <span class="xn-text">Estadisticas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sims.html">
+                        <span class="fa fa-mobile-phone"></span>
+                        <span class="xn-text">Sims</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="reports.html">
+                        <span class="fa fa-file-text-o"></span>
+                        <span class="xn-text">Reportes</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div style="" class="page-content">
+            <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+                <li class="xn-icon-button">
+                    <a href="#" class="x-navigation-minimize">
+                        <span class="fa fa-dedent"></span>
+                    </a>
+                </li>
+                <!-- POWER OFF -->
+                <li class="xn-icon-button pull-right last">
+                    <a href="#"><span class="fa fa-power-off"></span></a>
+                    <ul class="xn-drop-left animated zoomIn">
+                        <li><a href="pages-lock-screen.html"><span class="fa fa-lock"></span> Lock Screen</a></li>
+                        <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
+                    </ul>                        
+                </li> 
+                <!-- END POWER OFF -->      
+            </ul>
+            <ul class="breadcrumb push-down-0">
+                <li>
+                    <a href="#">Matrices de prueba</a>
+                </li>
+            </ul>
+            <div class="content-frame">
+                <div class="content-frame-top">
+                    <div class="page-title">
+                        <h2>
+                            <span class="fa fa-arrow-circle-o-left"></span>
+                            Matrices de Pruebas
+                        </h2>
+                    </div>
+                    <div class="pull-right">
+                        <button class="btn btn-default content-frame-left-toggle">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div>
+                </div>
+                <div style="height: 928px;" class="content-frame-left">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Acciones</h3>
+                            <ul class="panel-controls">
+                                <li>
+                                    <a class="panel-collapse" href="#">
+                                        <span class="fa fa-angle-down"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-body list-group list-group-contacts">
+                            <div class="list-group border-bottom">
+                                <a href="matrix.html" class="list-group-item active">Lista de Matrices</a>
+                                <a href="new_matriz.html" class="list-group-item">Crear nueva Matriz</a>
+                                <a href="exe_matriz.html" class="list-group-item">Ejecutar Matriz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 988px;" class="content-frame-body form-horizontal">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><strong>Listado</strong> - Matrices de Pruebas</h3>
+                                <div class="btn-group pull-right">
+                                    <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i> Exportar Datos</button>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#" onClick ="$('#customers2').tableExport({type:'txt',escape:'false'});">
+                                                <img src='img/icons/txt.png' width="24"/> TXT
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick ="$('#customers2').tableExport({type:'excel',escape:'false'});">
+                                                <img src='img/icons/xls.png' width="24"/> XLS
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="message-box message-box-warning animated fadeIn" data-sound="fail" id="message-box-sound-2">
+                            <div class="mb-container">
+                                <div class="mb-middle">
+                                    <div class="mb-title"><span class="fa fa-trash-o"></span> Atenci&oacute;n!</div>
+                                    <div class="mb-content">
+                                        <p>¿Esta seguro de que desea eliminar el registro de la matriz de pruebas?</p>                    
+                                    </div>
+                                    <div class="mb-footer">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-11 text-right">
+                                                    <button class="btn btn-primary btn-md pull-right mb-control-close" onClick="noty({text: 'Registro borrado satisfactoriamente', layout: 'topRight', type: 'success'});">Aceptar</button>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <button class="btn btn-default btn-md pull-right mb-control-close">Cancelar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table id="customers2" class="table datatable table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Palabra Clave</th>
+                                            <th>Descripci&oacute;n</th>
+                                            <th>Proveedor</th>
+                                            <th>Marcaci&oacute;n</th>
+                                            <th>Tipo</th>
+                                            <th>Estatus</th>
+                                            <th>Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Sexys</td>
+                                            <td>SEXY</td>
+                                            <td>Fotos de chicas sexy's</td>
+                                            <td>Proveedor 1</td>
+                                            <td>45555</td>
+                                            <td>Fotos</td>
+                                            <td><span class="label label-success">Activa</span></td>
+                                            <td>
+                                                <a href="edit_matriz.html"><span class="fa fa-pencil" title="Editar matriz de pruebas "></span></a>&nbsp;
+                                                <a href="#" class="mb-control" data-box="#message-box-sound-2"><span class="fa fa-trash-o" title="Eliminar matriz de pruebas"></span></a>&nbsp;
+                                                <a href="exe_matriz.html"><span class="fa fa-toggle-right" title="Ejecutar matriz de pruebas"></span></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Horoscopos</td>
+                                            <td>HOROSCOPO</td>
+                                            <td>Oroscopo Diario</td>
+                                            <td>Proveedor 2</td>
+                                            <td>28288</td>
+                                            <td>Link</td>
+                                            <td><span class="label label-danger">Inactiva</span></td>
+                                            <td>
+                                                <a href="edit_matriz.html"><span class="fa fa-pencil" title="Editar matriz de pruebas "></span></a>&nbsp;
+                                                <a href="#" class="mb-control" data-box="#message-box-sound-2"><span class="fa fa-trash-o" title="Eliminar matriz de pruebas"></span></a>&nbsp;
+                                                <a href="exe_matriz.html"><span class="fa fa-toggle-right" title="Ejecutar matriz de pruebas"></span></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Noticias</td>
+                                            <td>NOTICIA</td>
+                                            <td>Noticias nacionales diarias</td>
+                                            <td>Proveedor 1</td>
+                                            <td>252525</td>
+                                            <td>Link</td>
+                                            <td><span class="label label-success">Activa</span></td>
+                                            <td>
+                                                <a href="edit_matriz.html"><span class="fa fa-pencil" title="Editar matriz de pruebas "></span></a>&nbsp;
+                                                <a href="#" class="mb-control" data-box="#message-box-sound-2"><span class="fa fa-trash-o" title="Eliminar matriz de pruebas"></span></a>&nbsp;
+                                                <a href="exe_matriz.html"><span class="fa fa-toggle-right" title="Ejecutar matriz de pruebas"></span></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Futbol</td>
+                                            <td>FUTBOL</td>
+                                            <td>Resultados del futbol mexicano semanal</td>
+                                            <td>Proveedor 1</td>
+                                            <td>44455</td>
+                                            <td>Link</td>
+                                            <td><span class="label label-success">Activa</span></td>
+                                            <td>
+                                                <a href="edit_matriz.html"><span class="fa fa-pencil" title="Editar matriz de pruebas "></span></a>&nbsp;
+                                                <a href="#" class="mb-control" data-box="#message-box-sound-2"><span class="fa fa-trash-o" title="Eliminar matriz de pruebas"></span></a>&nbsp;
+                                                <a href="exe_matriz.html"><span class="fa fa-toggle-right" title="Ejecutar matriz de pruebas"></span></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
+
+    <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="js/plugins/icheck/icheck.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/actions.js"></script>
+    
+    <script type="text/javascript" src="js/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/plugins/tableexport/tableExport.js"></script>
+    <script type="text/javascript" src="js/plugins/tableexport/jquery.base64.js"></script>
+    <script type="text/javascript" src="js/plugins/tableexport/html2canvas.js"></script>
+    <script type="text/javascript" src="js/plugins/tableexport/jspdf/libs/sprintf.js"></script>
+    <script type="text/javascript" src="js/plugins/tableexport/jspdf/jspdf.js"></script>
+    <script type="text/javascript" src="js/plugins/tableexport/jspdf/libs/base64.js"></script>    
+
+    <script type='text/javascript' src='js/plugins/noty/jquery.noty.js'></script>
+    <script type='text/javascript' src='js/plugins/noty/layouts/topRight.js'></script>            
+    
+    <script type='text/javascript' src='js/plugins/noty/themes/default.js'></script>
+        
+</body>
+</html>

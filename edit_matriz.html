@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beeusoft - Certificaci&oacute;n de contenidos SMS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+<link rel="stylesheet" type="text/css" id="theme" href="css/theme-serenity-head-light.css" />
+<body style="" class="">
+    <div class="page-container">
+        <div style="height: 1070px;" class="page-sidebar scroll">
+            <ul class="x-navigation">
+                <li class="xn-logo">
+                    <a href="dashboard.html">Beeusoft</a>
+                    <a href="#" class="x-navigation-control"></a>
+                </li>
+                <li class="xn-title">Men&uacute;</li>
+                <li>
+                    <a href="dashboard.html">
+                        <span class="fa fa-desktop"></span>
+                        <span class="xn-text">Dashboard</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="matrix.html">
+                        <span class="fa fa-gavel"></span>
+                        <span class="xn-text">Matrices de Prueba</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="statistics.html">
+                        <span class="fa fa-bar-chart-o"></span>
+                        <span class="xn-text">Estadisticas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sims.html">
+                        <span class="fa fa-mobile-phone"></span>
+                        <span class="xn-text">Sims</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="reports.html">
+                        <span class="fa fa-file-text-o"></span>
+                        <span class="xn-text">Reportes</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div style="" class="page-content">
+            <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+                <li class="xn-icon-button">
+                    <a href="#" class="x-navigation-minimize">
+                        <span class="fa fa-dedent"></span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="breadcrumb push-down-0">
+                <li>
+                    <a href="#">Matrices</a>
+                </li>
+                <li class="active">Editar Matriz</li>
+            </ul>
+            <div class="content-frame">
+                <div class="content-frame-top">
+                    <div class="page-title">
+                        <h2>
+                            <a href="dashboard.html">
+                                <span class="fa fa-arrow-circle-o-left"></span>
+                            </a>
+                            Matrices de Pruebas
+                        </h2>
+                    </div>
+                    <div class="pull-right">
+                        <button class="btn btn-default content-frame-left-toggle">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div>
+                </div>
+                <div style="height: 928px;" class="content-frame-left">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Acciones</h3>
+                            <ul class="panel-controls">
+                                <li>
+                                    <a class="panel-collapse" href="#">
+                                        <span class="fa fa-angle-down"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="panel-body list-group list-group-contacts">
+                            <div class="list-group border-bottom">
+                                <a href="matrix.html" class="list-group-item">Lista de Matrices</a>
+                                <a href="new_matriz.html" class="list-group-item">Crear nueva Matriz</a>
+                                <a href="exe_matriz.html" class="list-group-item">Ejecutar Matriz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 988px;" class="content-frame-body form-horizontal">
+                    <div class="row">
+                        <div class="col-md-12">
+                            
+                            <form class="form-horizontal">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><strong>Editar</strong> - Matriz de Pruebas</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Captura la informaci&oacute;n necesaria para crear una matriz de pruebas del servicio de contenidos SMS's.</p>
+                                </div>
+                                <div class="panel-body">                                                                        
+                                    
+                                    <div class="form-group">
+                                        <label class="col-md-3 col-xs-12 control-label">Nombre</label>
+                                        <div class="col-md-6 col-xs-12">                                            
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
+                                                <input type="text" class="form-control" value="Futbol" placeholder="Nombre de la matriz de prueba"/>
+                                            </div>                                            
+                                            <span class="help-block">Nombre de la matriz de prueba</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-md-3 col-xs-12 control-label">Descripci&oacute;n</label>
+                                        <div class="col-md-6 col-xs-12">                                            
+                                            <textarea class="form-control" rows="5" placeholder="Detalles de la matriz de prueba">Resultados del futbol mexicano semanal</textarea>
+                                            <span class="help-block"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-md-3 col-xs-12 control-label">Palabra Clae</label>
+                                        <div class="col-md-6 col-xs-12">                                                                                                                                        
+                                            <input type="text" class="form-control" name="filename" id="filename" placeholder="Palabra clave" value="FUTBOL"/>
+                                            <span class="help-block">Palabra clave del servicio</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-3 col-xs-12 control-label">Proveedor</label>
+                                        <div class="col-md-6 col-xs-12">                                                                                            
+                                            <select class="form-control select">
+                                                <option selected>Proveedor 1</option>
+                                                <option>Proveedor 2</option>
+                                                <option>Proveedor 3</option>
+                                                <option>Proveedor 4</option>
+                                                <option>Proveedor 5</option>
+                                            </select>
+                                            <span class="help-block">Proveedor del servicio</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-md-3 col-xs-12 control-label">Marcaci&oacute;n</label>
+                                        <div class="col-md-6 col-xs-12">                                                                                                                                        
+                                            <input type="text" class="form-control" name="filename" id="filename" placeholder="N&uacute;mero de la marcaci&oacute;n" value="44455"/>
+                                            <span class="help-block">Marcaci&oacute;n del servicio</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="col-md-3 col-xs-12 control-label">Tipo</label>
+                                        <div class="col-md-6 col-xs-12">                                                                                                                                        
+                                            <select class="form-control select">
+                                                <option>Texto</option>
+                                                <option selected>Link</option>
+                                                <option>Imagen</option>
+                                            </select>
+                                            <span class="help-block">Tipo de servicio</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="panel-footer">
+                                    <a class="btn btn-primary pull-right" href="matrix.html">Guardar</a>
+                                </div>
+                            </div>
+                            </form>
+                            
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="js/plugins/icheck/icheck.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/actions.js"></script>     
+</body>
+</html>
