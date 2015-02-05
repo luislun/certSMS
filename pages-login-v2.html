@@ -29,7 +29,7 @@
                                 <div class="input-group-addon">
                                     <span class="fa fa-user"></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Username"/>
+                                <input type="text" id="username" class="form-control" placeholder="Username"/>
                             </div>
                         </div>
                     </div>
@@ -39,13 +39,13 @@
                                 <div class="input-group-addon">
                                     <span class="fa fa-lock"></span>
                                 </div>                                
-                                <input type="password" class="form-control" placeholder="Password"/>
+                                <input type="password" id="password" class="form-control" placeholder="Password"/>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-12">
-                            <button class="btn btn-primary btn-lg btn-block" id="enter">Entrar</button>
+                            <button type="button" class="btn btn-primary btn-lg btn-block" id="enter">Entrar</button>
                         </div>
                     </div>
                     </form>
@@ -62,7 +62,12 @@
             </div>
             
         </div>
-        
+        <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type='text/javascript' src='js/plugins/noty/jquery.noty.js'></script>
+        <script type='text/javascript' src='js/plugins/noty/layouts/topCenter.js'></script>
+
+        <script type="text/javascript" src="js/certsms.js"></script>
+
     </body>
 </html>
 

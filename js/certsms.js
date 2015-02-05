@@ -1,4 +1,13 @@
 $( document ).ready( function(){
+    $( '#enter' ).click( function(){
+        if( $( "#username" ).val() == "Admin" && $( "#password" ).val() == "test" ){
+            window.location = "dashboard.html";
+        } else {
+            noty({text: 'Usuario y/o password incorrecto.', layout: 'topCenter', type: 'success'});
+            return false;
+        }
+    });
+
     $( '#startHour, #finishHour' ).removeClass( 'plugin-clock' );
 
     $( '#execMatriz' ).click( function(){
