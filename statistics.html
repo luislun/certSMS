@@ -71,7 +71,54 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-4">
-                                
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <h4>Filtros</h4>
+                                        <form class="form-horizontal" role="form">                                    
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Fechas</label>
+                                                <div class="col-md-9">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control datepicker" value="2015-01-01"/>
+                                                        <span class="input-group-addon add-on"> al </span>
+                                                        <input type="text" class="form-control datepicker" value="2015-01-10"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Proveedor</label>
+                                                <div class="col-md-9">
+                                                    <select class="form-control select">
+                                                        <option>Todos</option>
+                                                        <option>Dindo</option>
+                                                        <option>Wau</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Tipo</label>
+                                                <div class="col-md-9">
+                                                    <select class="form-control select">
+                                                        <option>Todos</option>
+                                                        <option>Texto</option>
+                                                        <option>Link</option>
+                                                        <option>Imagen</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Marcaci&oacute;n</label>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="text-right">
+                                                <button class="btn btn-default" type="button">Cancelar</button>
+                                                <button class="btn btn-primary" type="button">Aplicar</button>
+                                            </div>
+                                        </form>        
+                                    </div>
+                                </div>                        
                             </div>
                             <div class="col-md-8">
                                 <div class="panel panel-default tabs">                            
@@ -84,7 +131,182 @@
                                             <div id="chart" style="height: 250px;"></div>
                                         </div>
                                         <div class="tab-pane" id="tab-second">
-                                            <p>Donec tristique eu sem et aliquam. Proin sodales elementum urna et euismod. Quisque nisl nisl, venenatis eget dignissim et, adipiscing eu tellus. Sed nulla massa, luctus id orci sed, elementum consequat est. Proin dictum odio quis diam gravida facilisis. Sed pharetra dolor a tempor tristique. Sed semper sed urna ac dignissim. Aenean fermentum leo at posuere mattis. Etiam vitae quam in magna viverra dictum. Curabitur feugiat ligula in dui luctus, sed aliquet neque posuere.</p>
+                                            <div class="table-responsive">
+                                                <table class="table table-striped table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Proveedor</th>
+                                                            <th>Marcaci&oacute;n</th>
+                                                            <th>Tipo</th>
+                                                            <th>Palabra Clave</th>
+                                                            <th>Fecha</th>
+                                                            <th>Resultado</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>BAJA FANTASI</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>BAJA FANTASI</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Wau</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-success">Exitosa</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>FANTASIFONDOS</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Dindo</td>
+                                                            <td>24444</td>
+                                                            <td>Link</td>
+                                                            <td>BAJA FANTASI</td>
+                                                            <td>01/01/2015</td>
+                                                            <td><span class="label label-danger">Fallida</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>                                                   
@@ -102,6 +324,8 @@
     <script type="text/javascript" src="js/plugins/icheck/icheck.min.js"></script>
     <script type="text/javascript" src="js/plugins/morris/raphael-min.js"></script>
     <script type="text/javascript" src="js/plugins/morris/morris.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-select.js"></script>
 
     <script type="text/javascript" src="js/certsms.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>

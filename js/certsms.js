@@ -20,22 +20,24 @@ $( document ).ready( function(){
         },5000);
     });
 
-    Morris.Bar({
-        element : 'chart',
-        data    : [
-            { date: '01/01/2015', success: 20, failed: 9 },
-            { date: '02/01/2015', success: 15, failed: 5 },
-            { date: '03/01/2015', success: 10, failed: 4 },
-            { date: '04/01/2015', success: 20, failed: 0 },
-            { date: '05/01/2015', success: 5 , failed: 4 },
-            { date: '06/01/2015', success: 12, failed: 6 },
-            { date: '07/01/2015', success: 31, failed: 12 },
-            { date: '08/01/2015', success: 10, failed: 12 },
-            { date: '09/01/2015', success: 23, failed: 2  },
-            { date: '10/01/2015', success: 10, failed: 1  }
-        ],
-        xkey   : 'date',
-        ykeys  : ['success', 'failed'],
-        labels : ['Exitosas', 'Fallidas']
-    });
+    if( typeof Morris != 'undefined' ){
+        Morris.Bar({
+            element : 'chart',
+            data    : [
+                { date: '01/01/2015', success: 20, failed: 9 },
+                { date: '02/01/2015', success: 15, failed: 5 },
+                { date: '03/01/2015', success: 10, failed: 4 },
+                { date: '04/01/2015', success: 20, failed: 0 },
+                { date: '05/01/2015', success: 5 , failed: 4 },
+                { date: '06/01/2015', success: 12, failed: 6 },
+                { date: '07/01/2015', success: 31, failed: 12 },
+                { date: '08/01/2015', success: 10, failed: 12 },
+                { date: '09/01/2015', success: 23, failed: 2  },
+                { date: '10/01/2015', success: 10, failed: 1  }
+            ],
+            xkey   : 'date',
+            ykeys  : ['success', 'failed'],
+            labels : ['Exitosas', 'Fallidas']
+        });
+    }
 });
