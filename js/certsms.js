@@ -83,6 +83,8 @@ $( document ).ready( function(){
             $( '#step5 .widget' ).removeClass( 'widget-default' ).addClass( 'widget-success' );
             $( '#step5 h3' ).removeClass( 'text-primary' ).addClass( 'text-default' );
             $( '#step5 .result' ).show();
+
+            $( '#step6' ).show();
         },16000);
     });
 
