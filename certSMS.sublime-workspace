@@ -1,0 +1,1346 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"compa",
+				"companiesList"
+			],
+			[
+				"ret",
+				"returnVar2"
+			],
+			[
+				"Cfdi",
+				"cfdiBo"
+			],
+			[
+				"domici",
+				"domicilioFiscal"
+			],
+			[
+				"fecha",
+				"fechaFolioFiscalOrig"
+			],
+			[
+				"serie",
+				"serieFolioFiscalOrig"
+			],
+			[
+				"folio",
+				"folioFiscalOrig"
+			],
+			[
+				"dom",
+				"domicilio"
+			],
+			[
+				"do",
+				"domicilio"
+			],
+			[
+				"domicilio",
+				"DomicilioFiscal"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"return",
+				"returnVar"
+			],
+			[
+				"retu",
+				"returnVar"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "matrix.html",
+			"settings":
+			{
+				"buffer_size": 16858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/certsms.js",
+			"settings":
+			{
+				"buffer_size": 8914,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "exe_matriz_baja.html",
+			"settings":
+			{
+				"buffer_size": 20790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme-serenity-head-light.css",
+			"settings":
+			{
+				"buffer_size": 195415,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"less",
+				"List LESS variables"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"snipp",
+				"Snippet: New django management command"
+			],
+			[
+				"come",
+				"Toggle Comment"
+			],
+			[
+				"coment",
+				"Django: Comment"
+			],
+			[
+				"bloc",
+				"Snippet: inline block"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"block",
+				"Snippet: inline block"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 111.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/luis/Documentos/github/canto/canto/templates/base.html",
+		"/home/luis/Documentos/github/certSMS/exe_matriz_baja.html",
+		"/home/luis/Documentos/github/canto/canto/setting/views.py",
+		"/home/luis/Documentos/github/canto/canto/canto/views.py",
+		"/home/luis/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/luis/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/luis/Documentos/github/certSMS/matrix.html",
+		"/home/luis/Documentos/github/certSMS/edit_matriz.html",
+		"/home/luis/Documentos/github/certSMS/index.html",
+		"/home/luis/Documentos/github/certSMS/dashboard.html",
+		"/home/luis/Documentos/github/certSMS/ui-elements.html",
+		"/home/luis/Documentos/github/certSMS/form-elements.html",
+		"/home/luis/Documentos/github/certSMS/statistics.html",
+		"/home/luis/Documentos/github/certSMS/pages-login-v2.html",
+		"/home/luis/Documentos/github/canto/canto/static/xmls/CFDI23490606_LUHL820607BM5_C_24510442.xml",
+		"/var/www/html/certsms/less/js/actions.js",
+		"/var/www/html/certsms/html/dashboard.html",
+		"/var/www/html/certsms/html/css/theme-light.css",
+		"/var/www/html/certsms/less/css/theme-light.less",
+		"/home/luis/.config/sublime-text-2/Packages/User/less2css.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/Less2Css/Default (Linux).sublime-keymap",
+		"/home/luis/.config/sublime-text-2/Packages/Less2Css/README.md",
+		"/home/luis/.config/sublime-text-2/Packages/List LESS Variables/lessvariables.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/LESS/LESS.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/LESS/README.md",
+		"/home/luis/.config/sublime-text-2/Packages/Less2Css/less2css.sublime-settings",
+		"/var/www/html/certsms/less/css/theme-default-head-light.less",
+		"/var/www/html/certsms/less/css/theme-default.less",
+		"/var/www/html/Atlant/less/css/theme-dark-head-light.less",
+		"/var/www/html/Atlant/less/css/theme-dark.less",
+		"/var/www/html/certsms/css/base.css",
+		"/var/www/html/Atlant/builder/index.php",
+		"/home/luis/Documentos/github/canto/canto/static/xmls/CFDI25248837_LUHL820607BM5_C_26309388.xml",
+		"/home/luis/Documentos/github/canto/canto/static/xmls/CFDI25248776_LUHL820607BM5_C_26309322.xml",
+		"/home/luis/Documentos/github/canto/canto/templates/baseInternal.html",
+		"/home/luis/Documentos/github/canto/canto/canto/urls.py",
+		"/home/luis/Documentos/github/canto/canto/templates/setting/settings.html",
+		"/home/luis/Documentos/github/canto/canto/canto/settings.py",
+		"/home/luis/Documentos/github/canto/canto/templates/canto/home.html",
+		"/home/luis/Documentos/github/canto/canto/setting/models.py",
+		"/home/luis/Documentos/github/canto/canto/taxPayer/models.py",
+		"/home/luis/Documentos/github/canto/canto/cfdiTax/models.py",
+		"/home/luis/Documentos/github/canto/canto/cfdiConcept/models.py",
+		"/home/luis/Documentos/github/canto/canto/cfdi/models.py",
+		"/home/luis/Documentos/github/canto/canto/address/models.py",
+		"/home/luis/Documentos/github/canto/canto/templates/setting/load_cfdis.html",
+		"/home/luis/.config/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+		"/home/luis/Documentos/github/canto/canto/canto/forms.py",
+		"/home/luis/Documentos/github/canto/canto/setting/admin.py",
+		"/home/luis/Documentos/github/canto/settings/views.py",
+		"/home/luis/Documentos/github/canto/canto/urls.py",
+		"/home/luis/Documentos/github/canto/canto/settings.py",
+		"/home/luis/Documentos/github/canto/cfdi/address.py",
+		"/home/luis/Documentos/github/canto/cfdi/structure.py",
+		"/home/luis/Documentos/github/canto/templates/settings/load_cfdis.html",
+		"/home/luis/Documentos/github/canto/static/xmls/cfdi.xml",
+		"/home/luis/Documentos/github/canto/cfdi/emisor.py",
+		"/home/luis/Documentos/github/canto/cfdi/cfdiBo.py",
+		"/home/luis/Documentos/github/canto/cfdiTax/models.py",
+		"/home/luis/Documentos/github/canto/cfdi/models.py",
+		"/home/luis/Documentos/github/canto/cfdiConcept/models.py",
+		"/home/luis/Documentos/github/canto/address/models.py",
+		"/home/luis/Documentos/github/canto/taxPayer/models.py",
+		"/home/luis/Documentos/github/canto/templates/baseInternal.html",
+		"/home/luis/Documentos/github/canto/canto/views.py",
+		"/home/luis/Documentos/github/canto/templates/settings/settings.html",
+		"/home/luis/Documentos/github/canto/canto/__init__.py",
+		"/home/luis/Documentos/github/canto/templates/home.html",
+		"/home/luis/Documentos/github/canto/templates/main.html",
+		"/home/luis/Documentos/github/invoiceShared/invoiceShared/wsgi.py",
+		"/home/luis/Documentos/github/invoiceShared/invoiceShared/urls.py",
+		"/home/luis/Documentos/github/invoiceShared/npm-debug.log",
+		"/home/luis/Documentos/github/invoiceShared/manage.py",
+		"/home/luis/Documentos/github/invoiceShared/static/css/base.css",
+		"/home/luis/Documentos/github/invoiceShared/templates/login.html",
+		"/home/luis/Documentos/github/invoiceShared/invoiceShared/views.py",
+		"/home/luis/Documentos/github/invoiceShared/static/bower.json",
+		"/home/luis/Documentos/github/invoiceShared/static/css/login.css",
+		"/home/luis/Documentos/github/invoiceShared/templates/index.html",
+		"/home/luis/Documentos/github/invoiceShared/static/views/index.html",
+		"/home/luis/Documentos/github/invoiceShared/invoiceShared/settings.py",
+		"/home/luis/Documentos/github/invoiceShared/static/views/extras-login2.html",
+		"/home/luis/Documentos/github/invoiceShared/settings/models.py",
+		"/home/luis/Documentos/github/invoiceShared/settings/admin.py",
+		"/home/luis/Documentos/github/invoiceShared/settings/views.py",
+		"/home/luis/Documentos/github/invoiceShared/templates/base.html",
+		"/home/luis/Documentos/github/invoiceShared/invoiceShared/forms.py",
+		"/home/luis/Documentos/github/invoiceShared/templates/home.html",
+		"/home/luis/Documentos/github/invoiceShared/templates/main.html",
+		"/home/luis/Documentos/github/invoiceShared/static/scripts/app.js",
+		"/home/luis/Documentos/github/invoiceShared/static/bower_components/angular-cookies/angular-cookies.js",
+		"/home/luis/Documentos/github/invoiceShared/static/bower_components/angular-cookies/README.md",
+		"/home/luis/Documentos/github/invoiceShared/templates/signup.html",
+		"/home/luis/Documentos/github/invoiceShared/templates/settings/hola.html",
+		"/home/luis/Documentos/github/invoiceShared/templates/hola.html",
+		"/home/luis/.config/sublime-text-2/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/MarkdownEditing/README.md",
+		"/home/luis/.config/sublime-text-2/Packages/Django Manage Commands/DjangoCommands.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/Djaneiro/Settings/Python (Django).sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/Django-DocsSearch/DjangoDocsSearch.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/User/DjangoDocsSearch.sublime-settings",
+		"/home/luis/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/luis/Documentos/github/invoiceShared/README.md",
+		"/home/luis/Documentos/github/beeusoft/Gulpfile.js",
+		"/home/luis/Documentos/github/beeusoft/package.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/luis/Documentos/github/canto",
+			"/home/luis/Documentos/github/certSMS",
+			"/home/luis/Documentos/github/canto/canto",
+			"/var/www/html/certsms/less",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"favicon",
+			"% for",
+			"getCompanies",
+			"<a href=\"reports.html\">",
+			"reporte",
+			"-0",
+			"change column",
+			"change column select defaults",
+			"select",
+			" \"",
+			"selec",
+			"mul",
+			"multipl",
+			"\": ",
+			" [\"",
+			"\": ",
+			"selec",
+			"height",
+			"844",
+			"inact",
+			"noti",
+			"dash",
+			"enter",
+			"lengua",
+			"1",
+			"filt",
+			"|",
+			"listCfdis",
+			"listcfdis",
+			"print",
+			"haskey",
+			"has",
+			"tim",
+			"timbre",
+			"\nContacts With Status",
+			"\nContacts With Status\n",
+			"starHour",
+			"widget-big-int",
+			"pruebas",
+			"plugin-clock",
+			"logo",
+			"matris",
+			"datatable",
+			"entries",
+			"show",
+			"show\"",
+			"show",
+			"datatable",
+			"China",
+			"logo",
+			"e0401d",
+			"logo",
+			"e34724",
+			".x-navigation > li.xn-logo > a:first-chil",
+			"logo",
+			"templates",
+			"[ 'xml' ]",
+			"files",
+			"html",
+			"url",
+			" url ",
+			"folio",
+			"cfd",
+			"alert",
+			"MESSAGE_STORAGE",
+			"context",
+			"us",
+			"user",
+			"setting",
+			"settings",
+			"static",
+			"auth",
+			"returnVar",
+			"condicionesDePago",
+			"datos.",
+			"': ,",
+			"#             '",
+			"#     '",
+			"export",
+			"dbf",
+			"tfd",
+			"table",
+			", ",
+			"Emisor",
+			"free",
+			"serie",
+			"foliofi",
+			"moneda",
+			"motivo",
+			"condicionesDePago",
+			"sello",
+			"    '",
+			"'",
+			"concepto",
+			">\n",
+			"url",
+			"href",
+			"SignUpForm",
+			"invoiceShared",
+			"canto",
+			"invoiceShared",
+			"invoiceSharedcant",
+			"invoiceShared",
+			"invoice",
+			"fff",
+			"bootstrap",
+			"aweso",
+			"font-awes",
+			"jquery",
+			"bower",
+			"bootstrap",
+			"APPEND_SLASH",
+			"run",
+			"ngCookies",
+			"ngcook",
+			"{{",
+			"{{|",
+			"{{",
+			"startSymbol",
+			"tennant.png",
+			"views/index.html",
+			"index.html",
+			"variations",
+			"{{static}}",
+			"/static/",
+			"static/",
+			"scripts/",
+			"assets/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<a href=\"reporte.pdf\">",
+			"matriz",
+			" datos['",
+			" = datos.",
+			"        self.",
+			"    ",
+			"{{STATIC_URL}}",
+			"{{static}}",
+			"/static/",
+			"static/scripts/",
+			"static/assets/",
+			"static/bower_components/",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "matrix.html",
+					"settings":
+					{
+						"buffer_size": 16858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								549,
+								549
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/certsms.js",
+					"settings":
+					{
+						"buffer_size": 8914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7985,
+								7985
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1916.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "exe_matriz_baja.html",
+					"settings":
+					{
+						"buffer_size": 20790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8840,
+								8840
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1664.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/theme-serenity-head-light.css",
+					"settings":
+					{
+						"buffer_size": 195415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80413,
+								80413
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45557.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.git":
+	{
+		"height": 88.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"themeser",
+				"css/theme-serenity-head-light.css"
+			],
+			[
+				"baja",
+				"exe_matriz_baja.html"
+			],
+			[
+				"matr",
+				"matrix.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"statist",
+				"statistics.html"
+			],
+			[
+				"matrix",
+				"matrix.html"
+			],
+			[
+				"login",
+				"pages-login-v2.html"
+			],
+			[
+				"static",
+				"statistics.html"
+			],
+			[
+				"form-eme",
+				"form-elements.html"
+			],
+			[
+				"ui-elements.html",
+				"ui-elements.html"
+			],
+			[
+				"edit",
+				"edit_matriz.html"
+			],
+			[
+				"matri",
+				"matrix.html"
+			],
+			[
+				"cfdi23490606_luhl820607bm5_c_24510442.xml",
+				"canto/static/xmls/CFDI23490606_LUHL820607BM5_C_24510442.xml"
+			],
+			[
+				"settviews.py",
+				"canto/setting/views.py"
+			],
+			[
+				"views.py",
+				"canto/canto/views.py"
+			],
+			[
+				"ui-list",
+				"html/ui-lists.html"
+			],
+			[
+				"new",
+				"html/new_matriz.html"
+			],
+			[
+				"widg",
+				"html/ui-widgets.html"
+			],
+			[
+				"form-layouts-one-column.html",
+				"html/form-layouts-one-column.html"
+			],
+			[
+				"plugins",
+				"html/js/plugins.js"
+			],
+			[
+				"basic",
+				"html/table-basic.html"
+			],
+			[
+				"table-export",
+				"html/table-export.html"
+			],
+			[
+				"dash",
+				"html/dashboard.html"
+			],
+			[
+				"cfdi25248837_luhl820607bm5_c_26309388",
+				"canto/static/xmls/CFDI25248837_LUHL820607BM5_C_26309388.xml"
+			],
+			[
+				"cfdi25248776_luhl820607bm5_c_26309322.xml",
+				"canto/static/xmls/CFDI25248776_LUHL820607BM5_C_26309322.xml"
+			],
+			[
+				"url",
+				"canto/canto/urls.py"
+			],
+			[
+				"baseinternal",
+				"templates/baseInternal.html"
+			],
+			[
+				"main",
+				"templates/main.html"
+			],
+			[
+				"home",
+				"templates/home.html"
+			],
+			[
+				"urls",
+				"invoiceShared/urls.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/luis/Documentos/github/canto/beeusoft.sublime-project"
+			],
+			[
+				"cato",
+				"/home/luis/Documentos/github/canto/canto.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true
+}

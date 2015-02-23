@@ -122,6 +122,70 @@ $( document ).ready( function(){
         },6000);
     });
 
+    $( '#execMatriz-baja' ).click( function(){
+        $( '#startHour, #finishHour' ).addClass( 'plugin-clock' );
+
+        window.setInterval(function(){
+            $( '#startHour' ).removeClass( 'plugin-clock' );                
+        },1000);
+        $( '#step1 #run' ).removeClass( 'hidden' );
+        $( '#step1 #toArrow' ).hide();
+
+        $( '#step1' ).show();
+        window.setTimeout(function(){
+            $( '#step1 .run' ).hide();
+            $( '#step1 .toArrow' ).show();
+            $( '#step1 .finishHour' ).removeClass( 'plugin-clock' );
+            $( '#step1 .widget' ).removeClass( 'widget-default' ).addClass( 'widget-success' );
+            $( '#step1 h3' ).removeClass( 'text-primary' ).addClass( 'text-default' );
+            $( '#step1 .result' ).show();
+
+            $( '#step2' ).show();
+            $( '#step2 .run' ).show();
+            $( '#step2 .toArrow' ).hide();
+            $( '#step2 .startHour' ).removeClass( 'plugin-clock' );
+        },1000);
+
+        window.setTimeout(function(){
+            $( '#step2 .run' ).hide();
+            $( '#step2 .toArrow' ).show();
+            $( '#step2 .finishHour' ).removeClass( 'plugin-clock' );
+            $( '#step2 .widget' ).removeClass( 'widget-default' ).addClass( 'widget-success' );
+            $( '#step2 h3' ).removeClass( 'text-primary' ).addClass( 'text-default' );
+            $( '#step2 .result' ).show();
+
+            $( '#step3' ).show();
+            $( '#step3 .run' ).show();
+            $( '#step3 .toArrow' ).hide();
+            $( '#step3 .startHour' ).removeClass( 'plugin-clock' );
+        },6000);
+
+        window.setTimeout(function(){
+            $( '#step3 .run' ).hide();
+            $( '#step3 .toArrow' ).show();
+            $( '#step3 .finishHour' ).removeClass( 'plugin-clock' );
+            $( '#step3 .widget' ).removeClass( 'widget-default' ).addClass( 'widget-success' );
+            $( '#step3 h3' ).removeClass( 'text-primary' ).addClass( 'text-default' );
+            $( '#step3 .result' ).show();
+
+            $( '#step4' ).show();
+            $( '#step4 .run' ).show();
+            $( '#step4 .toArrow' ).hide();
+            $( '#step4 .startHour' ).removeClass( 'plugin-clock' );
+        },8000);
+
+        window.setTimeout(function(){
+            $( '#step4 .run' ).hide();
+            $( '#step4 .toArrow' ).show();
+            $( '#step4 .finishHour' ).removeClass( 'plugin-clock' );
+            $( '#step4 .widget' ).removeClass( 'widget-default' ).addClass( 'widget-success' );
+            $( '#step4 h3' ).removeClass( 'text-primary' ).addClass( 'text-default' );
+            $( '#step4 .result' ).show();
+
+            $( '#step5' ).show();
+        },18000);
+    });
+
     if( typeof Morris != 'undefined' ){
         Morris.Bar({
             element : 'chart',
